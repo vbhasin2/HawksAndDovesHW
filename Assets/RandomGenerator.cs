@@ -32,7 +32,7 @@ public class RandomGenerator : MonoBehaviour
             Instantiate(Dove, _randomPosition, Quaternion.identity);
         }
 
-        for (int i = 0; i < NoHawks; i++)
+        for (int i = 0; i < 100; i++)
         {
             GenerateRandom();
             Instantiate(Hawk, _randomPosition, Quaternion.identity);
